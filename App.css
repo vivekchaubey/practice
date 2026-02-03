@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.split-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .split-container {
+    flex-direction: column;
+  }
+}

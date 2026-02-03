@@ -1,0 +1,15 @@
+.greeting {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.message {
+  font-size: 1.8rem;
+  color: #61dafb;
+  margin: 20px 0;
+}
+
+.name {
+  font-size: 1.2rem;
+  color: #555;
+}
